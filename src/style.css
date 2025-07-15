@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-categorytext: #2a2a2a;
+  --color-naturalgray-1: oklch(0.9374 0.0055 274.96);
+  --color-naturalgray-2: #cbced7;
+  --color-naturalgray-3: #aeb2c0;
+  --color-naturalgray-4: #9095aa;
+  --color-naturalgray-5: #737993;
+  --color-naturalgray-6: #5b6176;
+  --color-naturalgray-7: #444859;
+  --color-naturalgray-8: #2e303b;
+  --color-Primary: #0d6efd;
+  --color-Primaryshade-5: #013075;
+  --color-Primaryshade-7: #00183b;
+  --color-Secondarytint-3: #ffecb3;
+  --color-naturalblack-1: #0f0f0f;
+  --color-Primarytint-3: #aecffe;
+  --color-Primarytint-5: #79aefe;
+  --color-Primarytint-8: #287efd;
+
+  --font-iransansxregular: "iransansxregular", sans-serif;
+  --font-iransansx: "iransansx", sans-serif;
+  --font-iransansxbold: "iransansxbold", sans-serif;
+  --font-iransansxnumregular: "iransansxnumregular", sans-serif;
+  --font-iransansxnum: "iransansxnum", sans-serif;
+}
+
+@font-face {
+  font-family: "iransansxregular";
+  src: url("assets/font/IRANSansX-Regular.woff2") format("woff2"),
+    url("assets/font/IRANSansX-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "iransansx";
+  src: url("assets/font/IRANSansX-Medium.woff2") format("woff2"),
+    url("assets/font/IRANSansX-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "iransansxbold";
+  src: url("assets/font/IRANSansX-Bold.woff2") format("woff2"),
+    url("assets/font/IRANSansX-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "iransansxnumregular";
+  src: url("assets/font/IRANSansXFaNum-Regular.woff2") format("woff2"),
+    url("assets/font/IRANSansXFaNum-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "iransansxnum";
+  src: url("assets/font/IRANSansXFaNum-Medium.woff2") format("woff2"),
+    url("assets/font/IRANSansXFaNum-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
