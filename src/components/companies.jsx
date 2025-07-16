@@ -5,12 +5,12 @@ const Companies = () => {
         <div className="absolute top-0 z-[-2] w-full">
           <img
             className=" w-full h-[210px] md:hidden"
-            src="./src/assets/images/bannerimgphone.png"
+            src="src/assets/images/bannerimgphone.png"
             alt="banner"
           />
           <img
             className="hidden w-full md:block"
-            src="./src/assets/images/bannerimgfull.png"
+            src="src/assets/images/bannerimgfull.png"
             alt="banner"
           />
         </div>
@@ -76,14 +76,14 @@ const Companies = () => {
                   <div className="w-full h-auto">
                     <img
                       className="w-[242px] min-w-[242px] lg:w-[288px] lg:min-w-[288px] h-[168px]"
-                      src="./src/assets/images/snappbannerimg.png"
+                      src="src/assets/images/snappbannerimg.png"
                       alt="snappimg"
                     />
                   </div>
                   <div className="w-full px-4 gap-4 flex mt-[-14px]">
                     <img
                       className="border-[3px] border-white size-16 rounded-xl object-cover object-center"
-                      src="./src/assets/images/snappiconimg.png"
+                      src="src/assets/images/snappiconimg.png"
                       alt=""
                     />
                     <div className="w-full flex flex-col justify-end">
@@ -168,14 +168,14 @@ const Companies = () => {
                   <div className="w-full h-auto">
                     <img
                       className="w-[242px] min-w-[242px] lg:w-[288px] lg:min-w-[288px]  h-[168px] rounded-t-3xl"
-                      src="./src/assets/images/digikalabannerimg.PNG"
+                      src="src/assets/images/digikalabannerimg.PNG"
                       alt="snappimg"
                     />
                   </div>
                   <div className="w-full px-4 gap-4 flex mt-[-14px]">
                     <img
                       className="border-[3px] border-white size-16 rounded-xl object-cover object-center"
-                      src="./src/assets/images/digikalaiconimg.png"
+                      src="src/assets/images/digikalaiconimg.png"
                       alt=""
                     />
                     <div className="w-full flex flex-col justify-end">
@@ -260,14 +260,14 @@ const Companies = () => {
                   <div className="w-full h-auto">
                     <img
                       className="w-[242px] min-w-[242px] lg:w-[288px] lg:min-w-[288px]  h-[168px] rounded-t-3xl"
-                      src="./src/assets/images/bannerfarabi.PNG"
+                      src="src/assets/images/bannerfarabi.PNG"
                       alt="snappimg"
                     />
                   </div>
                   <div className="w-full px-4 gap-4 flex mt-[-14px]">
                     <img
                       className="border-[3px] border-white size-16 rounded-xl object-cover object-center"
-                      src="./src/assets/images/farabiicon.jpg"
+                      src="src/assets/images/farabiicon.jpg"
                       alt=""
                     />
                     <div className="w-full flex flex-col justify-end">
@@ -352,14 +352,14 @@ const Companies = () => {
                   <div className="w-full h-auto">
                     <img
                       className="w-[242px] min-w-[242px] lg:w-[288px] lg:min-w-[288px]  h-[168px] rounded-t-3xl"
-                      src="./src/assets/images/banneralibaba.PNG"
+                      src="src/assets/images/banneralibaba.PNG"
                       alt="snappimg"
                     />
                   </div>
                   <div className="w-full px-4 gap-4 flex mt-[-14px]">
                     <img
                       className="border-[3px] border-white size-16 rounded-xl object-cover object-center"
-                      src="./src/assets/images/alibabaicon.png"
+                      src="src/assets/images/alibabaicon.png"
                       alt=""
                     />
                     <div className="w-full flex flex-col justify-end">

@@ -51,7 +51,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="./src/assets/images/jobcard1.png"
+                src="src/assets/images/jobcard1.png"
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
@@ -68,7 +68,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="./src/assets/images/jobcard2.png"
+                src="src/assets/images/jobcard2.png"
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
@@ -85,7 +85,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="./src/assets/images/jobcard3.png"
+                src="src/assets/images/jobcard3.png"
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
@@ -102,7 +102,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="./src/assets/images/jobcard4.png"
+                src="src/assets/images/jobcard4.png"
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
@@ -119,7 +119,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="./src/assets/images/jobcard5.png"
+                src="src/assets/images/jobcard5.png"
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">

@@ -54,7 +54,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category1.jpg"
+                src="assets/images/category1.jpg"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -64,7 +64,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category2.png"
+                src="assets/images/category2.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -74,7 +74,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category3.png"
+                src="src/assets/images/category3.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -84,7 +84,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category4.png"
+                src="src/assets/images/category4.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -94,7 +94,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden md:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category9.png"
+                src="src/assets/images/category9.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -104,7 +104,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden lg:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category10.png"
+                src="src/assets/images/category10.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -114,7 +114,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden xl:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category11.png"
+                src="src/assets/images/category11.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -126,7 +126,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category5.png"
+                src="src/assets/images/category5.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -136,7 +136,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category6.jpg"
+                src="src/assets/images/category6.jpg"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -146,7 +146,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-left"
-                src="./src/assets/images/category7.png"
+                src="src/assets/images/category7.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -156,7 +156,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category8.png"
+                src="src/assets/images/category8.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -166,7 +166,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden md:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category12.png"
+                src="src/assets/images/category12.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -176,7 +176,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden lg:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category13.jpg"
+                src="src/assets/images/category13.jpg"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -186,7 +186,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden xl:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="./src/assets/images/category14.png"
+                src="src/assets/images/category14.png"
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">

@@ -6,7 +6,7 @@ const News = () => {
           <div className="absolute w-full top-0 z-[-2]">
             <img
               className="w-full h-[205px]"
-              src="./src/assets/images/bannerimgphone.png"
+              src="src/assets/images/bannerimgphone.png"
               alt="banner"
             />
           </div>
@@ -50,7 +50,7 @@ const News = () => {
                   <div className="w-full">
                     <img
                       className="w-[242px] h-[129px] rounded-t-3xl"
-                      src="./src/assets/images/newssnapp.png"
+                      src="src/assets/images/newssnapp.png"
                       alt="news"
                     />
                   </div>
@@ -94,7 +94,7 @@ const News = () => {
                         </p>
                         <img
                           className="size-6 rounded-3xl"
-                          src="./src/assets/images/iconwriter1.png"
+                          src="src/assets/images/iconwriter1.png"
                           alt="icon"
                         />
                       </div>
@@ -105,7 +105,7 @@ const News = () => {
                   <div className="w-full">
                     <img
                       className="w-[242px] h-[129px] rounded-t-3xl"
-                      src="./src/assets/images/newssnapp.png"
+                      src="src/assets/images/newssnapp.png"
                       alt="news"
                     />
                   </div>
@@ -149,7 +149,7 @@ const News = () => {
                         </p>
                         <img
                           className="size-6 rounded-3xl"
-                          src="./src/assets/images/iconwriter2.png"
+                          src="src/assets/images/iconwriter2.png"
                           alt="icon"
                         />
                       </div>

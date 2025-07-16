@@ -54,7 +54,7 @@ const Events = () => {
           <div className="w-[328px] md:w-[350px] lg:w-[450px] xl:w-[550px] 2xl:w-[600px] h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] 2xl:-[208px] rounded-xl lg:rounded-2xl xl:rounded-3xl border border-naturalgray-2 gap-2 flex">
             <img
               className="h-full w-auto rounded-r-xl lg:rounded-r-2xl xl:rounded-r-3xl"
-              src="./src/assets/images/eventimg1.png"
+              src="src/assets/images/eventimg1.png"
               alt="events"
             />
             <div className="gap-3 p-2 md:p-3 xl:py-6 2xl:px-6 2xl:py-8 xl:px4 size-full flex flex-col">
@@ -113,7 +113,7 @@ const Events = () => {
           <div className="w-[328px] md:w-[350px] lg:w-[450px] xl:w-[550px] 2xl:w-[600px] h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] 2xl:-[208px] rounded-xl lg:rounded-2xl xl:rounded-3xl border border-naturalgray-2 gap-2 flex">
             <img
               className="h-full w-auto rounded-r-xl lg:rounded-r-2xl xl:rounded-r-3xl"
-              src="./src/assets/images/eventimg2.png"
+              src="src/assets/images/eventimg2.png"
               alt="events"
             />
             <div className="gap-3 p-2 md:p-3 xl:py-6 2xl:px-6 2xl:py-8 xl:px4 size-full flex flex-col">
@@ -172,7 +172,7 @@ const Events = () => {
           <div className="w-[328px] md:w-[350px] lg:w-[450px] xl:w-[550px] 2xl:w-[600px] h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] 2xl:-[208px] rounded-xl lg:rounded-2xl xl:rounded-3xl border border-naturalgray-2 gap-2 flex">
             <img
               className="h-full w-auto rounded-r-xl lg:rounded-r-2xl xl:rounded-r-3xl"
-              src="./src/assets/images/eventimg3.png"
+              src="src/assets/images/eventimg3.png"
               alt="events"
             />
             <div className="gap-3 p-2 md:p-3 xl:py-6 2xl:px-6 2xl:py-8 xl:px4 size-full flex flex-col">
@@ -231,7 +231,7 @@ const Events = () => {
           <div className="w-[328px] md:w-[350px] lg:w-[450px] xl:w-[550px] 2xl:w-[600px] h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] 2xl:-[208px] rounded-xl lg:rounded-2xl xl:rounded-3xl border border-naturalgray-2 gap-2 flex">
             <img
               className="h-full w-auto rounded-r-xl lg:rounded-r-2xl xl:rounded-r-3xl"
-              src="./src/assets/images/eventimg4.png"
+              src="src/assets/images/eventimg4.png"
               alt="events"
             />
             <div className="gap-3 p-2 md:p-3 xl:py-6 2xl:px-6 2xl:py-8 xl:px4 size-full flex flex-col">

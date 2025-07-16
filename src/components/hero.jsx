@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="w-fit p-0.5 rounded-[8px] bg-linear-to-b from-naturalgray-1 from-70% to-100%">
             <img
               className="w-[215px] h-[345px] rounded-[8px] z-10 object-cover object-top"
-              src="./src/assets/images/aboutimg.png"
+              src="src/assets/images/aboutimg.png"
               alt="about"
             />
           </div>
@@ -61,21 +61,21 @@ const Hero = () => {
         <div className="hidden md:block">
           <img
             className=" rounded-3xl border-4 border-naturalgray-1 md:w-[600px] md:h-[440px] lg:w-[700px] lg:h-[490px] xl:w-[800px] xl:h-[530px] 2xl:w-[1016px] 2xl:h-[588px] object-cover object-top"
-            src="./src/assets/images/heroimgbig.png"
+            src="src/assets/images/heroimgbig.png"
             alt="concepto"
           />
         </div>
         <div className="hidden md:block absolute right-[40px] lg:right-[100px] top-[210px] xl:right-[150px] xl:top-[240px]">
           <img
             className=" rounded-2xl border-4 border-naturalgray-1 md:w-[160px] md:h-[300px] lg:w-[200px] lg:h-[360px] xl:w-[240px] xl:h-[400px] 2xl:w-[287px] 2xl:h-[465px] object-cover object-top"
-            src="./src/assets/images/aboutimg.png"
+            src="src/assets/images/aboutimg.png"
             alt="concepto"
           />
         </div>
         <div className="hidden md:block absolute bottom-[-70px] left-[50px] lg:left-[100px]  xl:bottom-[-50px] xl:left-[180px] shadow-md">
           <img
             className=" rounded-2xl lg:w-[350px] lg:h-[200px] md:w-[330px] md:h-[200px] xl:w-[400px] xl:h-[250px] 2xl:w-[450px] 2xl:h-[280px] object-cover object-top"
-            src="./src/assets/images/heroimgleftbot.png"
+            src="src/assets/images/heroimgleftbot.png"
             alt="concepto"
           />
         </div>
