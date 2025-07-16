@@ -6,7 +6,7 @@ import eventimg4 from "/src/assets/images/eventimg4.png";
 const Events = () => {
   return (
     <>
-      <div className="container mx-auto flex justify-center mt-[70px] mb-[100px]">
+      <div className="container mx-auto flex justify-center mt-[70px] lg:mt-[100px] mb-[100px]">
         <div className="gap-4 flex flex-row flex-wrap items-center justify-center">
           <div className="w-full flex flex-row-reverse justify-between items-center m-2 mb-7">
             <button className="gap-2 flex justify-center items-center">

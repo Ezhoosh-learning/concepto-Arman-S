@@ -16,7 +16,7 @@ import category14 from "/src/assets/images/category14.png";
 const Categories = () => {
   return (
     <>
-      <div className="container mx-auto px-4 xl:px-8 2xl:px-12 gap-6 flex flex-col justify-center items-center mt-14 md:mt-[100px] xl:mt-[150px]">
+      <div className="container mx-auto px-4 xl:px-8 2xl:px-12 gap-6 lg:gap-12 flex flex-col justify-center items-center mt-14 md:mt-[100px] xl:mt-[150px]">
         <div className="w-full flex flex-row-reverse justify-between items-center">
           <button className="gap-2 w-6 h-6 flex justify-center items-center xl:hidden">
             <svg
@@ -65,146 +65,146 @@ const Categories = () => {
           </div>
         </div>
         <div className="w-full gap-6 flex flex-col ">
-          <div className="w-full flex flex-row-reverse justify-between">
-            <div className="gap-2 flex flex-col justify-between items-center">
+          <div className="w-full flex flex-row-reverse justify-around">
+            <div className="gap-2 flex flex-col justify-between items-center sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category1}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 هوافضا
               </p>
             </div>
-            <div className="gap-2 flex flex-col justify-between items-center">
+            <div className="gap-2 flex flex-col justify-between items-center sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category2}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 هوش مصنوعی
               </p>
             </div>
-            <div className="gap-2 flex flex-col justify-between items-center">
+            <div className="gap-2 flex flex-col justify-between items-center sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category3}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 رسانه‌ها
               </p>
             </div>
-            <div className="gap-2 flex flex-col justify-between items-center">
+            <div className="gap-2 flex flex-col justify-between items-center sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category4}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 گرافیک
               </p>
             </div>
-            <div className="gap-2 flex-col justify-between items-center hidden md:flex">
+            <div className="gap-2 flex-col justify-between items-center hidden md:flex sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category9}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 حسابداری
               </p>
             </div>
-            <div className="gap-2 flex-col justify-between items-center hidden lg:flex">
+            <div className="gap-2 flex-col justify-between items-center hidden lg:flex sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category10}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 حمل و نقل
               </p>
             </div>
-            <div className="gap-2 flex-col justify-between items-center hidden xl:flex">
+            <div className="gap-2 flex-col justify-between items-center hidden xl:flex sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category11}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 علمی
               </p>
             </div>
           </div>
-          <div className="w-full flex flex-row-reverse justify-between">
-            <div className="gap-2 flex flex-col justify-between items-center">
+          <div className="w-full flex flex-row-reverse justify-around">
+            <div className="gap-2 flex flex-col justify-between items-center sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category5}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 ارز دیجیتال
               </p>
             </div>
-            <div className="gap-2 flex flex-col justify-between items-center">
+            <div className="gap-2 flex flex-col justify-between items-center sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category6}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 برنامه نویسی
               </p>
             </div>
-            <div className="gap-2 flex flex-col justify-between items-center">
+            <div className="gap-2 flex flex-col justify-between items-center sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-left"
                 src={category7}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 فیلم و سینما
               </p>
             </div>
-            <div className="gap-2 flex flex-col justify-between items-center">
+            <div className="gap-2 flex flex-col justify-between items-center sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category8}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 بیوتکنولوژی
               </p>
             </div>
-            <div className="gap-2 flex-col justify-between items-center hidden md:flex">
+            <div className="gap-2 flex-col justify-between items-center hidden md:flex sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category12}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 پزشکی
               </p>
             </div>
-            <div className="gap-2 flex-col justify-between items-center hidden lg:flex">
+            <div className="gap-2 flex-col justify-between items-center hidden lg:flex sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category13}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 تجارت الکترونیکی
               </p>
             </div>
-            <div className="gap-2 flex-col justify-between items-center hidden xl:flex">
+            <div className="gap-2 flex-col justify-between items-center hidden xl:flex sm:w-[62px] md:w-[75px] lg:w-[90px] xl:w-[110px]">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
                 src={category14}
                 alt="category"
               />
-              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
+              <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px] text-nowrap">
                 موسیقی
               </p>
             </div>

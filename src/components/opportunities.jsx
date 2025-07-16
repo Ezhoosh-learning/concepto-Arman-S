@@ -52,7 +52,7 @@ const Opportunities = () => {
             </p>
           </div>
         </div>
-        <div className="w-full overflow-x-scroll overflow-y-hidden">
+        <div className="w-full overflow-x-scroll overflow-y-hidden lg:overflow-x-hidden">
           <div className="gap-6 flex lg:justify-center">
             <div className=" flex flex-col justify-between items-center">
               <img
@@ -125,7 +125,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src={jobcard1}
+                src={jobcard5}
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
