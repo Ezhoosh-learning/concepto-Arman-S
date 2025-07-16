@@ -1,3 +1,8 @@
+import eventimg1 from "/src/assets/images/eventimg1.png";
+import eventimg2 from "/src/assets/images/eventimg2.png";
+import eventimg3 from "/src/assets/images/eventimg3.png";
+import eventimg4 from "/src/assets/images/eventimg4.png";
+
 const Events = () => {
   return (
     <>
@@ -54,7 +59,7 @@ const Events = () => {
           <div className="w-[328px] md:w-[350px] lg:w-[450px] xl:w-[550px] 2xl:w-[600px] h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] 2xl:-[208px] rounded-xl lg:rounded-2xl xl:rounded-3xl border border-naturalgray-2 gap-2 flex">
             <img
               className="h-full w-auto rounded-r-xl lg:rounded-r-2xl xl:rounded-r-3xl"
-              src="src/assets/images/eventimg1.png"
+              src={eventimg1}
               alt="events"
             />
             <div className="gap-3 p-2 md:p-3 xl:py-6 2xl:px-6 2xl:py-8 xl:px4 size-full flex flex-col">
@@ -113,7 +118,7 @@ const Events = () => {
           <div className="w-[328px] md:w-[350px] lg:w-[450px] xl:w-[550px] 2xl:w-[600px] h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] 2xl:-[208px] rounded-xl lg:rounded-2xl xl:rounded-3xl border border-naturalgray-2 gap-2 flex">
             <img
               className="h-full w-auto rounded-r-xl lg:rounded-r-2xl xl:rounded-r-3xl"
-              src="src/assets/images/eventimg2.png"
+              src={eventimg2}
               alt="events"
             />
             <div className="gap-3 p-2 md:p-3 xl:py-6 2xl:px-6 2xl:py-8 xl:px4 size-full flex flex-col">
@@ -172,7 +177,7 @@ const Events = () => {
           <div className="w-[328px] md:w-[350px] lg:w-[450px] xl:w-[550px] 2xl:w-[600px] h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] 2xl:-[208px] rounded-xl lg:rounded-2xl xl:rounded-3xl border border-naturalgray-2 gap-2 flex">
             <img
               className="h-full w-auto rounded-r-xl lg:rounded-r-2xl xl:rounded-r-3xl"
-              src="src/assets/images/eventimg3.png"
+              src={eventimg3}
               alt="events"
             />
             <div className="gap-3 p-2 md:p-3 xl:py-6 2xl:px-6 2xl:py-8 xl:px4 size-full flex flex-col">
@@ -231,7 +236,7 @@ const Events = () => {
           <div className="w-[328px] md:w-[350px] lg:w-[450px] xl:w-[550px] 2xl:w-[600px] h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] 2xl:-[208px] rounded-xl lg:rounded-2xl xl:rounded-3xl border border-naturalgray-2 gap-2 flex">
             <img
               className="h-full w-auto rounded-r-xl lg:rounded-r-2xl xl:rounded-r-3xl"
-              src="src/assets/images/eventimg4.png"
+              src={eventimg4}
               alt="events"
             />
             <div className="gap-3 p-2 md:p-3 xl:py-6 2xl:px-6 2xl:py-8 xl:px4 size-full flex flex-col">

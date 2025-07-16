@@ -1,3 +1,18 @@
+import category1 from "/src/assets/images/category1.jpg";
+import category6 from "/src/assets/images/category6.jpg";
+import category3 from "/src/assets/images/category3.png";
+import category4 from "/src/assets/images/category4.png";
+import category5 from "/src/assets/images/category5.png";
+import category2 from "/src/assets/images/category2.png";
+import category7 from "/src/assets/images/category7.png";
+import category8 from "/src/assets/images/category8.png";
+import category9 from "/src/assets/images/category9.png";
+import category10 from "/src/assets/images/category10.png";
+import category11 from "/src/assets/images/category11.png";
+import category12 from "/src/assets/images/category12.png";
+import category13 from "/src/assets/images/category13.jpg";
+import category14 from "/src/assets/images/category14.png";
+
 const Categories = () => {
   return (
     <>
@@ -54,7 +69,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="assets/images/category1.jpg"
+                src={category1}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -64,7 +79,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="assets/images/category2.png"
+                src={category2}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -74,7 +89,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category3.png"
+                src={category3}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -84,7 +99,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category4.png"
+                src={category4}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -94,7 +109,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden md:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category9.png"
+                src={category9}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -104,7 +119,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden lg:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category10.png"
+                src={category10}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -114,7 +129,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden xl:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category11.png"
+                src={category11}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -126,7 +141,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category5.png"
+                src={category5}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -136,7 +151,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category6.jpg"
+                src={category6}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -146,7 +161,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-left"
-                src="src/assets/images/category7.png"
+                src={category7}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -156,7 +171,7 @@ const Categories = () => {
             <div className="gap-2 flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category8.png"
+                src={category8}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -166,7 +181,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden md:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category12.png"
+                src={category12}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -176,7 +191,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden lg:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category13.jpg"
+                src={category13}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">
@@ -186,7 +201,7 @@ const Categories = () => {
             <div className="gap-2 flex-col justify-between items-center hidden xl:flex">
               <img
                 className="size-[56px] lg:size-[60px] xl:size-[70px] 2xl:size-[80px] rounded-[100px] object-cover object-center"
-                src="src/assets/images/category14.png"
+                src={category14}
                 alt="category"
               />
               <p className="font-iransansxregular text-categorytext text-[12px] md:text-[14px] lg:text-[16px]">

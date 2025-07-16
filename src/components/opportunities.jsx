@@ -1,3 +1,9 @@
+import jobcard1 from "/src/assets/images/jobcard1.png";
+import jobcard2 from "/src/assets/images/jobcard2.png";
+import jobcard3 from "/src/assets/images/jobcard3.png";
+import jobcard4 from "/src/assets/images/jobcard4.png";
+import jobcard5 from "/src/assets/images/jobcard5.png";
+
 const Opportunities = () => {
   return (
     <>
@@ -51,7 +57,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="src/assets/images/jobcard1.png"
+                src={jobcard1}
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
@@ -68,7 +74,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="src/assets/images/jobcard2.png"
+                src={jobcard2}
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
@@ -85,7 +91,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="src/assets/images/jobcard3.png"
+                src={jobcard3}
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
@@ -102,7 +108,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="src/assets/images/jobcard4.png"
+                src={jobcard4}
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">
@@ -119,7 +125,7 @@ const Opportunities = () => {
             <div className=" flex flex-col justify-between items-center">
               <img
                 className="size-[56px] lg:size-[65px] 2xl:size-[72px] rounded-[8px] object-cover"
-                src="src/assets/images/jobcard5.png"
+                src={jobcard1}
                 alt="job"
               />
               <div className="w-[152px] lg:w-[180px] xl:w-[228px] h-[151px] rounded-3xl flex justify-center items-center mt-[-40px]">

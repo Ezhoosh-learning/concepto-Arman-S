@@ -1,3 +1,14 @@
+import bannerimgphone from "/src/assets/images/bannerimgphone.png";
+import bannerimgfull from "/src/assets/images/bannerimgfull.png";
+import snappbannerimg from "/src/assets/images/snappbannerimg.png";
+import snappiconimg from "/src/assets/images/snappiconimg.png";
+import digikalabannerimg from "/src/assets/images/digikalabannerimg.png";
+import digikalaiconimg from "/src/assets/images/digikalaiconimg.png";
+import bannerfarabi from "/src/assets/images/bannerfarabi.png";
+import farabiicon from "/src/assets/images/farabiicon.jpg";
+import banneralibaba from "/src/assets/images/banneralibaba.png";
+import alibabaicon from "/src/assets/images/alibabaicon.png";
+
 const Companies = () => {
   return (
     <>
@@ -5,12 +16,12 @@ const Companies = () => {
         <div className="absolute top-0 z-[-2] w-full">
           <img
             className=" w-full h-[210px] md:hidden"
-            src="src/assets/images/bannerimgphone.png"
+            src={bannerimgphone}
             alt="banner"
           />
           <img
             className="hidden w-full md:block"
-            src="src/assets/images/bannerimgfull.png"
+            src={bannerimgfull}
             alt="banner"
           />
         </div>
@@ -76,14 +87,14 @@ const Companies = () => {
                   <div className="w-full h-auto">
                     <img
                       className="w-[242px] min-w-[242px] lg:w-[288px] lg:min-w-[288px] h-[168px]"
-                      src="src/assets/images/snappbannerimg.png"
+                      src={snappbannerimg}
                       alt="snappimg"
                     />
                   </div>
                   <div className="w-full px-4 gap-4 flex mt-[-14px]">
                     <img
                       className="border-[3px] border-white size-16 rounded-xl object-cover object-center"
-                      src="src/assets/images/snappiconimg.png"
+                      src={snappiconimg}
                       alt=""
                     />
                     <div className="w-full flex flex-col justify-end">
@@ -168,14 +179,14 @@ const Companies = () => {
                   <div className="w-full h-auto">
                     <img
                       className="w-[242px] min-w-[242px] lg:w-[288px] lg:min-w-[288px]  h-[168px] rounded-t-3xl"
-                      src="src/assets/images/digikalabannerimg.PNG"
+                      src={digikalabannerimg}
                       alt="snappimg"
                     />
                   </div>
                   <div className="w-full px-4 gap-4 flex mt-[-14px]">
                     <img
                       className="border-[3px] border-white size-16 rounded-xl object-cover object-center"
-                      src="src/assets/images/digikalaiconimg.png"
+                      src={digikalaiconimg}
                       alt=""
                     />
                     <div className="w-full flex flex-col justify-end">
@@ -260,14 +271,14 @@ const Companies = () => {
                   <div className="w-full h-auto">
                     <img
                       className="w-[242px] min-w-[242px] lg:w-[288px] lg:min-w-[288px]  h-[168px] rounded-t-3xl"
-                      src="src/assets/images/bannerfarabi.PNG"
+                      src={bannerfarabi}
                       alt="snappimg"
                     />
                   </div>
                   <div className="w-full px-4 gap-4 flex mt-[-14px]">
                     <img
                       className="border-[3px] border-white size-16 rounded-xl object-cover object-center"
-                      src="src/assets/images/farabiicon.jpg"
+                      src={farabiicon}
                       alt=""
                     />
                     <div className="w-full flex flex-col justify-end">
@@ -352,14 +363,14 @@ const Companies = () => {
                   <div className="w-full h-auto">
                     <img
                       className="w-[242px] min-w-[242px] lg:w-[288px] lg:min-w-[288px]  h-[168px] rounded-t-3xl"
-                      src="src/assets/images/banneralibaba.PNG"
+                      src={banneralibaba}
                       alt="snappimg"
                     />
                   </div>
                   <div className="w-full px-4 gap-4 flex mt-[-14px]">
                     <img
                       className="border-[3px] border-white size-16 rounded-xl object-cover object-center"
-                      src="src/assets/images/alibabaicon.png"
+                      src={alibabaicon}
                       alt=""
                     />
                     <div className="w-full flex flex-col justify-end">

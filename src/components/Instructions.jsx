@@ -1,3 +1,5 @@
+import buildingimg from "/src/assets/images/buildingimg.png";
+
 const Instructions = () => {
   return (
     <>
@@ -8,7 +10,7 @@ const Instructions = () => {
               <div className="bg-Primary size-[42px] xl:size-[60px] 2xl:size-[70px] absolute top-[34px] lg:top-[44px] xl:top-[53px] left-[22.4px] rounded-[12px] border-[2px] border-naturalgray-1 overflow-hidden flex justify-center">
                 <img
                   className="w-[35px] xl:w-[60px] xl:h-[65px] h-[46px] 2xl:w-[70px] 2xl:h-[78px] mt-1"
-                  src="src/assets/images/buildingimg.png"
+                  src={buildingimg}
                   alt="building"
                 />
               </div>
@@ -90,7 +92,7 @@ const Instructions = () => {
               <div className="size-[46px] xl:size-[68px] 2xl:size-[85px] border-2 border-naturalgray-1 bg-Primary rounded-xl overflow-hidden flex justify-center">
                 <img
                   className="w-[35px] h-[46px] xl:w-[68px] xl:h-[73px] 2xl:w-[85px] 2xl:h-[95px] mt-1"
-                  src="src/assets/images/buildingimg.png"
+                  src={buildingimg}
                   alt="building"
                 />
               </div>
@@ -111,7 +113,7 @@ const Instructions = () => {
               <div className="bg-Primary size-[42px] xl:size-[60px] 2xl:size-[70px] absolute top-[34px] lg:top-[44px] xl:top-[53px] left-[22.4px] rounded-[12px] border-[2px] border-naturalgray-1 overflow-hidden flex justify-center">
                 <img
                   className="w-[35px] xl:w-[60px] xl:h-[65px] h-[46px] 2xl:w-[70px] 2xl:h-[78px] mt-1"
-                  src="src/assets/images/buildingimg.png"
+                  src={buildingimg}
                   alt="building"
                 />
               </div>

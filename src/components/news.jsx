@@ -1,3 +1,8 @@
+import bannerimgphone from "/src/assets/images/bannerimgphone.png";
+import newssnapp from "/src/assets/images/newssnapp.png";
+import iconwriter1 from "/src/assets/images/iconwriter1.png";
+import iconwriter2 from "/src/assets/images/iconwriter2.png";
+
 const News = () => {
   return (
     <>
@@ -6,7 +11,7 @@ const News = () => {
           <div className="absolute w-full top-0 z-[-2]">
             <img
               className="w-full h-[205px]"
-              src="src/assets/images/bannerimgphone.png"
+              src={bannerimgphone}
               alt="banner"
             />
           </div>
@@ -50,7 +55,7 @@ const News = () => {
                   <div className="w-full">
                     <img
                       className="w-[242px] h-[129px] rounded-t-3xl"
-                      src="src/assets/images/newssnapp.png"
+                      src={newssnapp}
                       alt="news"
                     />
                   </div>
@@ -94,7 +99,7 @@ const News = () => {
                         </p>
                         <img
                           className="size-6 rounded-3xl"
-                          src="src/assets/images/iconwriter1.png"
+                          src={iconwriter1}
                           alt="icon"
                         />
                       </div>
@@ -105,7 +110,7 @@ const News = () => {
                   <div className="w-full">
                     <img
                       className="w-[242px] h-[129px] rounded-t-3xl"
-                      src="src/assets/images/newssnapp.png"
+                      src={newssnapp}
                       alt="news"
                     />
                   </div>
@@ -149,7 +154,7 @@ const News = () => {
                         </p>
                         <img
                           className="size-6 rounded-3xl"
-                          src="src/assets/images/iconwriter2.png"
+                          src={iconwriter2}
                           alt="icon"
                         />
                       </div>
