@@ -1,6 +1,6 @@
 {
   "name": "concepto",
-  "homepage": "https://Ezhoosh-learning.github.io/concepto-Arman-S/",
+  "homepage": "https://Ezhoosh-learning.github.io/concepto-Arman-S",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d disit"
+    "deploy": "gh-pages -d disit -r git@github.com:Ezhoosh-learning/concepto-Arman-S.git"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
