@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/cocepto-Arman-S/",
+  base: "/concepto-Arman-S/",
 });
